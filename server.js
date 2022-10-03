@@ -1,10 +1,11 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 require("dotenv").config()
 const {getAllPersos, getOnePerso, postPerso, updatePerso, deletePerso} = require("./controller/app.js")
 const port = 3000
 
-
+app.use(cors())
 app.use(express.json())
 
 
