@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    width: 700px;
+    border: 2px solid black
+}
+
+.div-h1 {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    border: 2px solid black;
+    margin: 10px;
+    width: 15vw;
+    list-style: none
+}
+
+li {
+    padding: 10px
+}
+
+.container {
+    display: flex;
+    flex-wrap : wrap
+}
