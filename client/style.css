@@ -8,7 +8,8 @@ h1 {
     margin: 20px;
     text-align: center;
     width: 700px;
-    border: 2px solid black
+    border: 2px solid black;
+    border-radius: 5px
 }
 
 .div-h1 {
@@ -18,16 +19,25 @@ h1 {
 
 ul {
     border: 2px solid black;
+    border-radius: 5px;
     margin: 10px;
-    width: 15vw;
+    width: 18vw;
     list-style: none
 }
 
 li {
-    padding: 10px
+    padding: 2px
 }
 
 .container {
     display: flex;
     flex-wrap : wrap
+}
+
+img {
+    position: absolute;
+    width: 4%;
+    height: auto;
+    top: 100px;
+    left: 150px
 }

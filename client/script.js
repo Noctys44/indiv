@@ -18,12 +18,10 @@ function displayPerso(perso) {
     perso.forEach(perso => {
         const ul = document.createElement('ul')
         container.appendChild(ul)
-        ul.innerHTML += `<li> 
-                            Nom : ${perso.lastname} 
-                            <br>  Prénom : ${perso.firstname} 
-                            <br>  Age : ${perso.age} 
-                            <br>  Pouvoir : ${perso.power} 
-                        </li>`
+        ul.innerHTML += `<li> Nom : ${perso.lastname} </li> 
+                         <li> Prénom : ${perso.firstname} </li> 
+                         <li>  Age : ${perso.age} </li> 
+                         <li>  Pouvoir : ${perso.power} </li>`
     });
    
     
