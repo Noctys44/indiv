@@ -1,9 +1,10 @@
 const express = require('express')
 const app = express()
+require("dotenv").config()
 const {getAllPersos, getOnePerso, postPerso, updatePerso, deletePerso} = require("./controller/app.js")
 const port = 3000
 
-require("dotenv").config()
+
 app.use(express.json())
 
 
