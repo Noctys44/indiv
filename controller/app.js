@@ -6,19 +6,19 @@ function getAllPersos(){
     return knex('persojjk').select('*')
 }
 
-async function getOnePerso(id){
+function getOnePerso(id){
     return knex("persojjk").where("id", id)
 }
 
-async function postPerso(perso){
+function postPerso(perso){
     return knex("persojjk").insert(perso)
 }
 
-async function updatePerso(id, perso){
+function updatePerso(id, perso){
     return knex("persojjk").where("id", id).update(perso)
 }
 
-async function deletePerso(id){
+function deletePerso(id){
     return knex("persojjk").where("id", id).del()
 }
 
